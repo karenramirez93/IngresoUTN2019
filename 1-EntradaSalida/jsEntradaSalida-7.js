@@ -31,11 +31,27 @@ alert("la resta es "+resta);
 
 function multiplicar()
 { 
-	
+	var numero1;
+	var numero2;
+	var multiplicar;
+	numero1=document.getElementById("numeroUno").value;
+	numero2=document.getElementById("numeroDos").value;
+	multiplicar=numero1*numero2;
+	alert("la multiplicacion es "+multiplicar);
+
+
+
 }
 
 function dividir()
 {
+	var numero1;
+	var numero2;
+	var div;
+	numero1=document.getElementById("numeroUno").value;
+	numero2=document.getElementById("numeroDos").value;
+	div=numero1/numero2;
+	alert("la division es "+div);
 	
 }
 
