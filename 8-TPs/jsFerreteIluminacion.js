@@ -30,8 +30,12 @@ function CalcularPrecio ()
            //alert("el total de su compra es"+ descuento);
         }
         else if (cantidad==5)
+        
         {
-        if (marca==ArgentinaLuz|)
+        if (marca=="ArgentinaLuz")
+       { descuento=precio*40/100;
+           }
+           else descuento
         }
         else if (cantidad==4)
         {
