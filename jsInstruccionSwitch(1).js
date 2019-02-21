@@ -3,33 +3,25 @@ function Mostrar()
 //tomo el mes
 var mesDelAño = document.getElementById('mes').value;
 
-
-
-switch (mesDelAño) {
-    case "Enero": 
+switch(mesDelAño)
+{
+    case "Enero":
     alert("Que comiences bien el año");
-        
-        break;
+    break;
+
+    case "Marzo":
+    alert("A clases!!");
+    break;
+
+    case "Julio":
+    alert("Se vienen las vacaciones");
+    break;
     
-}
-switch (mesDelAño) {
-    case "Marzo": 
-    alert("a clases!!!");
-        
-        break;
-}
-switch (mesDelAño) {
-    case "Diciembre": 
-    alert("felices fiestas!!!");
-        
-        break;
+    case "Diciembre":
+    alert("Felices fiestas");
+    break;
 }
 
-switch (mesDelAño) {
-    case "Julio": 
-    alert("se vienen las vacaciones!!!");
-        
-        break;
-}
+
 
 }//FIN DE LA FUNCIÓN
